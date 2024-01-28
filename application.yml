@@ -1,11 +1,11 @@
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: http://discovery-service.default.svc.cluster.local:8761/eureka/
-    instance:
-      hostname: discovery-service.default.svc.cluster.local
+#eureka:
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    service-url:
+#      defaultZone: http://discovery-service.default.svc.cluster.local:8761/eureka/
+#    instance:
+#      hostname: discovery-service.default.svc.cluster.local
 service:
   uri:
     security: http://security-service.default.svc.cluster.local:9004
